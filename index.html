@@ -110,6 +110,8 @@ code{font-family:'Noto Sans Mono CJK KR',ui-monospace,Menlo,Consolas,monospace;f
     padding:11px 14px 11px 38px;font-size:15px;line-height:1.56;color:#E0E8E1}
 .pr::before{content:"";position:absolute;left:14px;top:15px;width:12px;height:12px;
             background:var(--c);border-radius:3px 3px 3px 0}
+.pr.sm{padding:9px 11px 9px 30px;font-size:13.33px}
+.pr.sm::before{left:11px;top:13px;width:10px;height:10px}
 .pr b{color:var(--ct);font-weight:700}
 .pr.bad{background:#161A17;border-color:#28302A;color:var(--sub)}
 .pr.bad::before{background:#4E5A52}
@@ -613,11 +615,11 @@ body.present .pv-hud.on,.pv-hud.go{opacity:1}
   <h2 class="t">좋은 프롬프트에 꼭 들어가는 5가지</h2>
   <div class="body" style="top:178px;height:424px;display:flex;flex-direction:column;gap:16px">
     <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:14px;height:232px">
-      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">1</span><b style="font-size:19px;letter-spacing:-.02em">무엇을</b><span class="note" style="font-size:14px">만들 대상과 형식</span><div class="pr" style="font-size:13.33px;margin-top:auto;padding:9px 11px">채용 안내 포털 웹 페이지를 <b>HTML 한 파일로</b></div></div>
-      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">2</span><b style="font-size:19px;letter-spacing:-.02em">화면 구성</b><span class="note" style="font-size:14px">어떤 영역이 들어가는지</span><div class="pr" style="font-size:13.33px;margin-top:auto;padding:9px 11px">상단 메뉴 · 헤더 · 절차 4단계 · 직무 카드 3개 · FAQ · 자료실</div></div>
-      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">3</span><b style="font-size:19px;letter-spacing:-.02em">디자인 톤</b><span class="note" style="font-size:14px">색과 분위기</span><div class="pr" style="font-size:13.33px;margin-top:auto;padding:9px 11px">신뢰감 있는 <b>블루/스카이블루</b> 톤</div></div>
-      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">4</span><b style="font-size:19px;letter-spacing:-.02em">동작</b><span class="note" style="font-size:14px">눌렀을 때 어떻게 되는지</span><div class="pr" style="font-size:13.33px;margin-top:auto;padding:9px 11px">메뉴를 누르면 해당 영역으로 <b>부드럽게 이동</b></div></div>
-      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">5</span><b style="font-size:19px;letter-spacing:-.02em">제약조건</b><span class="note" style="font-size:14px">하지 말아야 할 것</span><div class="pr" style="font-size:13.33px;margin-top:auto;padding:9px 11px">모바일 반응형 · 외부 서버나 DB는 <b>쓰지 마</b></div></div>
+      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">1</span><b style="font-size:19px;letter-spacing:-.02em">무엇을</b><span class="note" style="font-size:14px">만들 대상과 형식</span><div class="pr sm" style="margin-top:auto">채용 안내 포털 웹 페이지를 <b>HTML 한 파일로</b></div></div>
+      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">2</span><b style="font-size:19px;letter-spacing:-.02em">화면 구성</b><span class="note" style="font-size:14px">어떤 영역이 들어가는지</span><div class="pr sm" style="margin-top:auto">상단 메뉴 · 헤더 · 절차 4단계 · 직무 카드 3개 · FAQ · 자료실</div></div>
+      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">3</span><b style="font-size:19px;letter-spacing:-.02em">디자인 톤</b><span class="note" style="font-size:14px">색과 분위기</span><div class="pr sm" style="margin-top:auto">신뢰감 있는 <b>블루/스카이블루</b> 톤</div></div>
+      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">4</span><b style="font-size:19px;letter-spacing:-.02em">동작</b><span class="note" style="font-size:14px">눌렀을 때 어떻게 되는지</span><div class="pr sm" style="margin-top:auto">메뉴를 누르면 해당 영역으로 <b>부드럽게 이동</b></div></div>
+      <div class="card k1" style="padding:16px 18px;display:flex;flex-direction:column;gap:8px"><span class="num">5</span><b style="font-size:19px;letter-spacing:-.02em">제약조건</b><span class="note" style="font-size:14px">하지 말아야 할 것</span><div class="pr sm" style="margin-top:auto">모바일 반응형 · 외부 서버나 DB는 <b>쓰지 마</b></div></div>
     </div>
     <div class="card" style="flex:1;padding:16px 22px;display:flex;align-items:center;gap:16px">
       <svg class="i k1" style="color:var(--c);width:24px;height:24px"><use href="#i-bulb"/></svg>
